@@ -1,0 +1,21 @@
+asenna heroku cli  :https://devcenter.heroku.com/articles/heroku-cli
+https://console.developers.google.com/apis/dashboard?project=superb-vigil-180014&duration=PT1H
+
+
+kirjaudu herokuun: heroku login
+aloita uusi projekti herokulla: heroku create
+-> l�het� gittin� saatu linkki 
+->git remote add heroku {LINKKI}
+->git push heroku master
+
+-> heroku open
+ tai esimerkiksi : heroku open --app arcane-garden-26493
+
+jos monta remotea niin remoten poisto:
+git remote
+-> git remote rm {remoten nimi}
+
+tarkstus onnistuiko kaikki
+-> heroku logs
+
+mongoDB -> https://mlab.com
